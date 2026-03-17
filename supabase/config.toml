@@ -1,0 +1,11 @@
+# FitTrack — Configuração Supabase CLI
+# Usado por: supabase link, supabase db push
+# Docs: https://supabase.com/docs/guides/cli/config
+
+project_id = "fittrack"
+
+[db.migrations]
+enabled = true
+
+[db.seed]
+enabled = false
